@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Guix",
+    "slug": "guix",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "bundleIdentifier": "com.happy.guix"
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "android": {
+      "package": "com.happy.guix",
+      "versionCode": 1
+    }
+  }
+}
